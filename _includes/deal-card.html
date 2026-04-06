@@ -1,0 +1,17 @@
+<div class="deal-card deal-{{ include.deal.type }}"
+     data-days="{{ include.deal.days | join: ' ' }}"
+     data-type="{{ include.deal.type }}"
+     data-neighborhood="{{ include.restaurant.neighborhood }}">
+  <div class="deal-card-header">
+    <h3 class="deal-restaurant">{{ include.restaurant.name }}</h3>
+    <span class="deal-badge badge-{{ include.deal.type }}">{{ include.deal.type }}</span>
+  </div>
+  <p class="deal-description">{{ include.deal.description }}</p>
+  <div class="deal-meta">
+    <span class="deal-time">{{ include.deal.time_start }} - {{ include.deal.time_end }}</span>
+    <span class="deal-neighborhood">{{ include.restaurant.neighborhood | replace: '-', ' ' | capitalize }}</span>
+  </div>
+  {% unless include.deal.verified %}
+    <span class="deal-unverified">Unverified</span>
+  {% endunless %}
+</div>

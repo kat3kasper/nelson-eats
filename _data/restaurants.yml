@@ -1,0 +1,155 @@
+- slug: finleys-irish
+  name: "Finley's Irish Bar"
+  address: "705 Vernon Street, Nelson, BC"
+  neighborhood: vernon-street
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine:
+    - pub-food
+  has_patio: false
+  description: "Irish pub with live music and a solid happy hour."
+  deals:
+    - type: both
+      days: [mon, tue, wed, thu, fri]
+      time_start: "15:30"
+      time_end: "17:30"
+      description: "$4 pints and wine, $5 food items"
+      verified: false
+      verified_date: null
+      source: website
+    - type: both
+      days: [mon, tue, wed, thu, fri]
+      time_start: "21:00"
+      time_end: "23:00"
+      description: "Late night happy hour"
+      verified: false
+      verified_date: null
+      source: website
+  outreach:
+    status: not-contacted
+    last_contact_date: null
+    contact_email: null
+    contact_name: null
+    notes: null
+
+- slug: sage-tapas
+  name: "Sage Tapas & Wine Bar"
+  address: "Baker Street, Nelson, BC"
+  neighborhood: baker-street
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine:
+    - tapas
+  has_patio: false
+  description: "Tapas and wine bar on Baker Street."
+  deals:
+    - type: drink
+      days: [mon, tue, wed, thu, fri, sat, sun]
+      time_start: "16:00"
+      time_end: "17:30"
+      description: "$2 off wines, beers, and highballs"
+      verified: false
+      verified_date: null
+      source: website
+  outreach:
+    status: not-contacted
+    last_contact_date: null
+    contact_email: null
+    contact_name: null
+    notes: null
+
+- slug: red-light-ramen
+  name: "Red Light Ramen"
+  address: "Baker Street, Nelson, BC"
+  neighborhood: baker-street
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine:
+    - ramen
+  has_patio: false
+  description: "Ramen bar with craft beer on tap."
+  deals:
+    - type: drink
+      days: [mon, tue, wed, thu, fri]
+      time_start: "15:00"
+      time_end: "17:00"
+      description: "$4 pints"
+      verified: false
+      verified_date: null
+      source: website
+  outreach:
+    status: not-contacted
+    last_contact_date: null
+    contact_email: null
+    contact_name: null
+    notes: null
+
+- slug: cantina-del-centro
+  name: "Cantina del Centro"
+  address: "Baker Street, Nelson, BC"
+  neighborhood: baker-street
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine:
+    - mexican
+  has_patio: false
+  description: "Mexican cantina in the heart of downtown."
+  deals:
+    - type: food
+      days: [mon, tue, wed, thu, fri, sat, sun]
+      time_start: "15:00"
+      time_end: "17:00"
+      description: "$1 off tacos ($2.50 each)"
+      verified: false
+      verified_date: null
+      source: website
+  outreach:
+    status: not-contacted
+    last_contact_date: null
+    contact_email: null
+    contact_name: null
+    notes: null
+
+- slug: louies-steakhouse
+  name: "Louie's Steakhouse & Lounge"
+  address: "Adventure Hotel, Nelson, BC"
+  neighborhood: baker-street
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine:
+    - fine-dining
+  has_patio: false
+  description: "Steakhouse in the Adventure Hotel with daily cocktail specials."
+  deals:
+    - type: drink
+      days: [mon, tue, wed, thu, fri, sat, sun]
+      time_start: "16:00"
+      time_end: "18:00"
+      description: "Half-price cocktails"
+      verified: false
+      verified_date: null
+      source: website
+    - type: drink
+      days: [wed]
+      time_start: "16:00"
+      time_end: "23:00"
+      description: "Wine Wednesday - 20% off bottles"
+      verified: false
+      verified_date: null
+      source: website
+  outreach:
+    status: not-contacted
+    last_contact_date: null
+    contact_email: null
+    contact_name: null
+    notes: null

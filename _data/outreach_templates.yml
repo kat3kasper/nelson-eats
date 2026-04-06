@@ -1,0 +1,13 @@
+templates:
+  - id: initial-outreach
+    subject: "Nelson Deals - Free listing for {restaurant_name}'s happy hour"
+    purpose: "First contact to verify deals and offer free listing"
+  - id: follow-up
+    subject: "Quick follow-up: {restaurant_name} on Nelson Deals"
+    purpose: "7 days after initial, no response"
+  - id: seasonal-update
+    subject: "Updating {restaurant_name}'s deals for {season}"
+    purpose: "Quarterly check-in for deal changes"
+  - id: thank-you
+    subject: "You're live on Nelson Deals!"
+    purpose: "Confirmation with link to their listing"

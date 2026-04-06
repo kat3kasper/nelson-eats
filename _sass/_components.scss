@@ -1,0 +1,145 @@
+.deal-card {
+  background: $color-white;
+  border-radius: 8px;
+  padding: $spacing-lg;
+  border-left: 4px solid $color-border;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+
+  &.deal-food {
+    border-left-color: $color-food;
+  }
+
+  &.deal-drink {
+    border-left-color: $color-drink;
+  }
+
+  &.deal-both {
+    border-left-color: $color-both;
+  }
+}
+
+.deal-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: $spacing-sm;
+}
+
+.deal-restaurant {
+  font-size: 1.1rem;
+  margin-right: $spacing-sm;
+}
+
+.deal-badge {
+  display: inline-block;
+  padding: $spacing-xs $spacing-sm;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: $color-white;
+
+  &.badge-food {
+    background: $color-food;
+  }
+
+  &.badge-drink {
+    background: $color-drink;
+  }
+
+  &.badge-both {
+    background: $color-both;
+  }
+}
+
+.deal-description {
+  margin-bottom: $spacing-sm;
+  font-size: 0.95rem;
+}
+
+.deal-meta {
+  display: flex;
+  justify-content: space-between;
+  color: $color-text-light;
+  font-size: 0.85rem;
+}
+
+.deal-time {
+  font-weight: 600;
+}
+
+.deal-unverified {
+  display: inline-block;
+  margin-top: $spacing-sm;
+  font-size: 0.75rem;
+  color: $color-text-light;
+  font-style: italic;
+}
+
+// Filters
+.filter-bar {
+  margin-bottom: $spacing-lg;
+}
+
+.filters {
+  display: flex;
+  gap: $spacing-md;
+  flex-wrap: wrap;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+
+  label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: $color-text-light;
+    text-transform: uppercase;
+  }
+
+  select {
+    padding: $spacing-sm $spacing-md;
+    border: 1px solid $color-border;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    background: $color-white;
+  }
+}
+
+// Day navigation
+.day-nav {
+  display: flex;
+  gap: $spacing-sm;
+  flex-wrap: wrap;
+  margin-top: $spacing-md;
+  margin-bottom: $spacing-xl;
+}
+
+.day-link {
+  padding: $spacing-sm $spacing-md;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  background: $color-white;
+  border: 1px solid $color-border;
+
+  &.active {
+    background: $color-primary;
+    color: $color-white;
+    border-color: $color-primary;
+  }
+
+  &:hover {
+    text-decoration: none;
+    background: color-mix(in srgb, $color-bg 90%, black);
+  }
+
+  &.active:hover {
+    background: $color-primary;
+  }
+}
+
+.day-header {
+  padding-top: $spacing-xl;
+}

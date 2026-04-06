@@ -1,0 +1,29 @@
+<div class="filters">
+  <div class="filter-group">
+    <label>Day</label>
+    <select id="filter-day">
+      <option value="all">All Days</option>
+      {% for d in site.data.site_config.days_of_week %}
+        <option value="{{ d.slug }}">{{ d.name }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <div class="filter-group">
+    <label>Type</label>
+    <select id="filter-type">
+      <option value="all">All Types</option>
+      <option value="food">Food</option>
+      <option value="drink">Drink</option>
+      <option value="both">Both</option>
+    </select>
+  </div>
+  <div class="filter-group">
+    <label>Neighborhood</label>
+    <select id="filter-neighborhood">
+      <option value="all">All Neighborhoods</option>
+      {% for n in site.data.site_config.neighborhoods %}
+        <option value="{{ n.slug }}">{{ n.name }}</option>
+      {% endfor %}
+    </select>
+  </div>
+</div>

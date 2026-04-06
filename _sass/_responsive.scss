@@ -1,0 +1,26 @@
+@media (max-width: $bp-mobile) {
+  .site-header .container {
+    flex-direction: column;
+    gap: $spacing-sm;
+  }
+
+  .site-nav a {
+    margin-left: $spacing-md;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .filters {
+    flex-direction: column;
+  }
+
+  .filter-group select {
+    width: 100%;
+  }
+
+  .day-nav {
+    justify-content: center;
+  }
+}

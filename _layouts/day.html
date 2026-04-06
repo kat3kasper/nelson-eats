@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<section class="day-header">
+  <h1>{{ page.title }}</h1>
+  <nav class="day-nav">
+    {% for d in site.data.site_config.days_of_week %}
+      <a href="{{ '/pages/days/' | append: d.name | downcase | append: '.html' | relative_url }}"
+         class="day-link {% if d.slug == page.day %}active{% endif %}">
+        {{ d.name }}
+      </a>
+    {% endfor %}
+  </nav>
+</section>
+
+<section class="day-deals">
+  <div class="deal-grid">
+    {% for restaurant in site.data.restaurants %}
+      {% for deal in restaurant.deals %}
+        {% if deal.days contains page.day %}
+          {% include deal-card.html restaurant=restaurant deal=deal %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </div>
+</section>
+
+{{ content }}

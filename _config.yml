@@ -1,0 +1,28 @@
+title: "Nelson Deals"
+description: "Happy hour deals and drink specials in Nelson, BC"
+url: "https://nelsondeals.ca"
+baseurl: ""
+timezone: America/Vancouver
+markdown: kramdown
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CLAUDE.md
+  - .claude/
+  - vendor/
+  - node_modules/
+
+defaults:
+  - scope:
+      path: "pages/days"
+    values:
+      layout: "day"

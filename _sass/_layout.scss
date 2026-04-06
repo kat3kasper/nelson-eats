@@ -1,0 +1,88 @@
+.site-header {
+  background: $color-primary;
+  padding: $spacing-md 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.site-logo {
+  color: $color-white;
+  font-size: 1.5rem;
+  font-weight: 700;
+
+  &:hover {
+    text-decoration: none;
+    opacity: 0.9;
+  }
+}
+
+.site-nav a {
+  color: $color-white;
+  margin-left: $spacing-lg;
+  font-size: 0.9rem;
+  opacity: 0.85;
+
+  &:hover {
+    opacity: 1;
+    text-decoration: none;
+  }
+}
+
+.hero {
+  text-align: center;
+  padding: $spacing-2xl 0;
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: $spacing-sm;
+  }
+}
+
+.hero-subtitle {
+  color: $color-text-light;
+  font-size: 1.1rem;
+}
+
+.today-deals h2 {
+  margin-bottom: $spacing-md;
+}
+
+.deal-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $spacing-md;
+
+  @media (min-width: $bp-tablet) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: $bp-desktop) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.site-footer {
+  margin-top: $spacing-2xl;
+  padding: $spacing-xl 0;
+  text-align: center;
+  color: $color-text-light;
+  font-size: 0.85rem;
+  border-top: 1px solid $color-border;
+}
+
+.footer-note {
+  margin-top: $spacing-xs;
+  font-style: italic;
+}
+
+.page-content {
+  padding: $spacing-xl 0;
+
+  h1 {
+    margin-bottom: $spacing-lg;
+  }
+}

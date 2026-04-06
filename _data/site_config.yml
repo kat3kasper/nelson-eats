@@ -1,0 +1,52 @@
+neighborhoods:
+  - slug: baker-street
+    name: "Baker Street"
+    description: "Nelson's main downtown strip"
+  - slug: vernon-street
+    name: "Vernon Street"
+    description: "Just off Baker, several great spots"
+  - slug: north-shore
+    name: "North Shore"
+    description: "Across the bridge"
+  - slug: south-nelson
+    name: "South Nelson"
+    description: "South of downtown"
+  - slug: other
+    name: "Other"
+    description: "Around town"
+
+cuisine_types:
+  - slug: brewery
+    name: "Brewery / Taproom"
+  - slug: pub-food
+    name: "Pub & Grill"
+  - slug: fine-dining
+    name: "Fine Dining"
+  - slug: asian
+    name: "Asian"
+  - slug: mexican
+    name: "Mexican / Latin"
+  - slug: italian
+    name: "Italian"
+  - slug: cafe
+    name: "Cafe / Coffee"
+  - slug: tapas
+    name: "Tapas / Small Plates"
+  - slug: ramen
+    name: "Ramen / Noodles"
+
+days_of_week:
+  - slug: mon
+    name: "Monday"
+  - slug: tue
+    name: "Tuesday"
+  - slug: wed
+    name: "Wednesday"
+  - slug: thu
+    name: "Thursday"
+  - slug: fri
+    name: "Friday"
+  - slug: sat
+    name: "Saturday"
+  - slug: sun
+    name: "Sunday"

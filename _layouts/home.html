@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <h1>Happy Hour in Nelson, BC</h1>
+  <p class="hero-subtitle">Find the best deals on drinks and food around town</p>
+</section>
+
+<section class="today-deals" id="deals">
+  <h2>Today's Deals</h2>
+  <div class="filter-bar" id="filter-bar">
+    {% include filter-bar.html %}
+  </div>
+  <div class="deal-grid" id="deal-grid">
+    {% for restaurant in site.data.restaurants %}
+      {% for deal in restaurant.deals %}
+        {% include deal-card.html restaurant=restaurant deal=deal %}
+      {% endfor %}
+    {% endfor %}
+  </div>
+</section>
+
+{{ content }}
+
+<script src="{{ '/assets/js/filters.js' | relative_url }}"></script>
