@@ -1,4 +1,4 @@
-# Nelson Deals - Project Context
+# Nelson Eats - Project Context
 
 ## What This Is
 Jekyll static site listing happy hour deals for restaurants in Nelson, BC.

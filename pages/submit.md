@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Submit a Deal"
-description: "Submit or update your restaurant's happy hour deals on Nelson Deals"
+description: "Submit or update your restaurant's happy hour deals on Nelson Eats"
 permalink: /pages/submit.html
 ---
 
@@ -16,7 +16,7 @@ Email us at [katelyn@kasperweb.com](mailto:katelyn@kasperweb.com) with:
 - What's on special (food, drinks, or both)
 - Any seasonal changes we should know about
 
-Listings on Nelson Deals are completely free.
+Listings on Nelson Eats are completely free.
 
 ## Spotted a deal?
 

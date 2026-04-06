@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "About Nelson Deals"
-description: "About Nelson Deals - your guide to happy hour specials in Nelson, BC"
+title: "About Nelson Eats"
+description: "About Nelson Eats - your guide to happy hour specials in Nelson, BC"
 permalink: /pages/about.html
 ---
 
-Nelson Deals is a simple guide to happy hour specials in Nelson, British Columbia.
+Nelson Eats is a simple guide to happy hour specials in Nelson, British Columbia.
 
 Nelson has more restaurants per capita than cities like San Francisco and Vancouver. We want to make it easy for locals and visitors to find the best deals on food and drinks around town.
 
