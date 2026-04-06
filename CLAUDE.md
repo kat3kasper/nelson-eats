@@ -1,5 +1,8 @@
 # Nelson Eats - Project Context
 
+## Working Status
+Check `.claude/status.md` at the start of every session for current progress, what's next, and recent decisions. Update it at the end of any session where work was done.
+
 ## What This Is
 Jekyll static site listing happy hour deals for restaurants in Nelson, BC.
 Hosted on Cloudflare Pages. Data in `_data/restaurants.yml`.
