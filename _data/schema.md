@@ -34,11 +34,19 @@ deals:
     days: [mon, tue, wed]           # 3-letter lowercase: mon, tue, wed, thu, fri, sat, sun
     time_start: "15:00"             # 24-hour format
     time_end: "17:00"               # 24-hour format
-    description: "$4 pints"         # Human-readable deal description
+    description: "$4 pints"         # Human-readable deal description, include price in text
     verified: false                 # true if confirmed by restaurant
     verified_date: null             # YYYY-MM-DD
     source: website                 # One of: website, social-media, outreach, in-person
 ```
+
+## Deal Structure Decisions
+
+- **One deal per line item** — each individual item (e.g., "$3.25 Korean Style Ribs") is its own deal entry, not grouped into a paragraph
+- **Price lives in the description text** — no separate price field. Prices are too varied (per unit, per ounce, per pint) to standardize as a number
+- **Time window distinguishes deal types** — no "happy-hour" vs "late-night" category field. A 14:00-17:00 deal is obviously happy hour, a 21:00-23:00 deal is obviously late night. The frontend groups deals by time window for display
+- **Drinks and food can have different day ranges** — e.g., happy hour drinks every day but happy hour food only Mon-Fri. These are separate deal entries with different `days` arrays
+- **Late night menus are in scope** — capture them the same way as happy hour deals, just with later time windows
 
 ## Conventions
 
