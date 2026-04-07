@@ -1,7 +1,494 @@
+# =============================================================================
+# Nelson Eats — Master Restaurant List
+# 54 restaurants, bars, breweries in Nelson, BC
+# Restaurants with empty deals[] won't show on the site
+# =============================================================================
+
+# --- BAKER STREET ---
+
+- slug: the-block-at-railtown
+  name: "The Block at Railtown"
+  address: "91 Baker St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: marzano
+  name: "Marzano"
+  address: "153 Baker St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: busaba-thai
+  name: "Busaba Thai Cafe"
+  address: "198 Baker St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: sakura-sushi
+  name: "Sakura Sushi"
+  address: "198 Baker St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: rel-ish-bistro
+  name: "Rel-ish Bistro"
+  address: "301 Baker St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: the-royal
+  name: "The Royal"
+  address: "330 Baker St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: dominion-cafe
+  name: "Dominion Cafe"
+  address: "334 Baker St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: kootenay-bakery-cafe
+  name: "Kootenay Bakery Cafe Co-op"
+  address: "377 Baker St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: lc-french-bakery-baker
+  name: "L&C French Bakery"
+  address: "390 Baker St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: full-circle-cafe
+  name: "Full Circle Cafe"
+  address: "402 Baker St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: beauties
+  name: "Beauties"
+  address: "449 Baker St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: backroads-brewing
+  name: "Backroads Brewing"
+  address: "460 Baker St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine:
+    - brewery
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: broken-hill
+  name: "Broken Hill"
+  address: "479 Baker St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: easy-tiger
+  name: "Easy Tiger"
+  address: "479 Baker St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: "Speakeasy bar behind Broken Hill, accessed via alley."
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: kurama-sushi
+  name: "Kurama Sushi"
+  address: "491 Baker St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: kc-restaurant
+  name: "KC Restaurant"
+  address: "546 Baker St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: cantina-del-centro
+  name: "Cantina del Centro"
+  address: "565 Baker St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine:
+    - mexican
+  has_patio: false
+  description: "Mexican cantina in the heart of downtown."
+  deals:
+    - type: food
+      days: [mon, tue, wed, thu, fri, sat, sun]
+      time_start: "15:00"
+      time_end: "17:00"
+      description: "$1 off tacos ($2.50 each)"
+      verified: false
+      verified_date: null
+      source: website
+  outreach:
+    status: not-contacted
+    last_contact_date: null
+    contact_email: null
+    contact_name: null
+    notes: null
+
+- slug: main-street-diner
+  name: "Main Street Diner"
+  address: "616 Baker St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: kootenay-tamil-kitchen
+  name: "Kootenay Tamil Kitchen"
+  address: "660 Baker St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+# --- VERNON STREET ---
+
+- slug: the-yellow-deli
+  name: "The Yellow Deli"
+  address: "202 Vernon St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: mikes-place-pub
+  name: "Mike's Place Pub"
+  address: "422 Vernon St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine:
+    - pub-food
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+    notes: "Hume Hotel venue"
+
+- slug: library-lounge
+  name: "Library Lounge"
+  address: "422 Vernon St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+    notes: "Hume Hotel venue"
+
+- slug: spiritbar
+  name: "Spiritbar"
+  address: "422 Vernon St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+    notes: "Hume Hotel venue"
+
+- slug: general-store-restaurant
+  name: "General Store Restaurant"
+  address: "422 Vernon St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+    notes: "Hume Hotel venue"
+
+- slug: jacksons-hole
+  name: "Jackson's Hole & Grill"
+  address: "524 Vernon St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: louies-steakhouse
+  name: "Louie's Steakhouse & Lounge"
+  address: "616 Vernon St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine:
+    - fine-dining
+  has_patio: false
+  description: "Steakhouse in the Adventure Hotel with daily cocktail specials."
+  deals:
+    - type: drink
+      days: [mon, tue, wed, thu, fri, sat, sun]
+      time_start: "16:00"
+      time_end: "18:00"
+      description: "Half-price cocktails"
+      verified: false
+      verified_date: null
+      source: website
+    - type: drink
+      days: [wed]
+      time_start: "16:00"
+      time_end: "23:00"
+      description: "Wine Wednesday - 20% off bottles"
+      verified: false
+      verified_date: null
+      source: website
+  outreach:
+    status: not-contacted
+    last_contact_date: null
+    contact_email: null
+    contact_name: null
+    notes: "Adventure Hotel venue"
+
+- slug: uptown-pizza
+  name: "Uptown Pizza & Sportsbar"
+  address: "616 Vernon St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+    notes: "Adventure Hotel venue"
+
+- slug: empire-coffee
+  name: "Empire Coffee"
+  address: "616 Vernon St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+    notes: "Adventure Hotel venue"
+
+- slug: sushi-wood
+  name: "Sushi Wood"
+  address: "702 Vernon St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
 - slug: finleys-irish
-  name: "Finley's Irish Bar"
-  address: "705 Vernon Street, Nelson, BC"
-  neighborhood: vernon-street
+  name: "Finley's Irish Bar & Grill"
+  address: "705 Vernon St"
+  neighborhood: downtown
   phone: null
   website: null
   instagram: null
@@ -36,8 +523,8 @@
 
 - slug: sage-tapas
   name: "Sage Tapas & Wine Bar"
-  address: "Baker Street, Nelson, BC"
-  neighborhood: baker-street
+  address: "705 Vernon St"
+  neighborhood: downtown
   phone: null
   website: null
   instagram: null
@@ -62,10 +549,89 @@
     contact_name: null
     notes: null
 
+# --- VICTORIA STREET ---
+
+- slug: ashmans-smash-burgers
+  name: "Ashman's Smash Burgers"
+  address: "301 Victoria St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: thors-pizza
+  name: "Thor's Pizza"
+  address: "303 Victoria St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: el-taco
+  name: "El Taco"
+  address: "306 Victoria St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: yum-son
+  name: "Yum Son"
+  address: "522 Victoria St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+# --- HERRIDGE LANE ---
+
+- slug: la-ruelle-bakery
+  name: "La Ruelle Bakery"
+  address: "281 Herridge Lane"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
 - slug: red-light-ramen
   name: "Red Light Ramen"
-  address: "Baker Street, Nelson, BC"
-  neighborhood: baker-street
+  address: "308 Herridge Lane"
+  neighborhood: downtown
   phone: null
   website: null
   instagram: null
@@ -90,66 +656,274 @@
     contact_name: null
     notes: null
 
-- slug: cantina-del-centro
-  name: "Cantina del Centro"
-  address: "Baker Street, Nelson, BC"
-  neighborhood: baker-street
+- slug: the-black-cauldron
+  name: "The Black Cauldron"
+  address: "620 Herridge Lane"
+  neighborhood: downtown
   phone: null
   website: null
   instagram: null
   google_maps_url: null
-  cuisine:
-    - mexican
+  cuisine: []
   has_patio: false
-  description: "Mexican cantina in the heart of downtown."
-  deals:
-    - type: food
-      days: [mon, tue, wed, thu, fri, sat, sun]
-      time_start: "15:00"
-      time_end: "17:00"
-      description: "$1 off tacos ($2.50 each)"
-      verified: false
-      verified_date: null
-      source: website
+  description: null
+  deals: []
   outreach:
-    status: not-contacted
-    last_contact_date: null
-    contact_email: null
-    contact_name: null
-    notes: null
+    status: not-started
 
-- slug: louies-steakhouse
-  name: "Louie's Steakhouse & Lounge"
-  address: "Adventure Hotel, Nelson, BC"
-  neighborhood: baker-street
+# --- KOOTENAY STREET ---
+
+- slug: tandoori-indian-grill
+  name: "Tandoori Indian Grill & Lounge"
+  address: "409 Kootenay St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: the-vienna-cafe
+  name: "The Vienna Cafe"
+  address: "411 Kootenay St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: amandas-restaurant
+  name: "Amanda's Restaurant"
+  address: "515 Kootenay St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+# --- WARD STREET ---
+
+- slug: sprout-plant-based
+  name: "Sprout Plant Based Eatery"
+  address: "569 Ward St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: fishermans-market
+  name: "Fisherman's Market"
+  address: "577 Ward St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+# --- HALL / LATIMER / STANLEY ---
+
+- slug: torchlight-brewing
+  name: "Torchlight Brewing Co."
+  address: "125 Hall St"
+  neighborhood: downtown
   phone: null
   website: null
   instagram: null
   google_maps_url: null
   cuisine:
-    - fine-dining
+    - brewery
   has_patio: false
-  description: "Steakhouse in the Adventure Hotel with daily cocktail specials."
-  deals:
-    - type: drink
-      days: [mon, tue, wed, thu, fri, sat, sun]
-      time_start: "16:00"
-      time_end: "18:00"
-      description: "Half-price cocktails"
-      verified: false
-      verified_date: null
-      source: website
-    - type: drink
-      days: [wed]
-      time_start: "16:00"
-      time_end: "23:00"
-      description: "Wine Wednesday - 20% off bottles"
-      verified: false
-      verified_date: null
-      source: website
+  description: null
+  deals: []
   outreach:
-    status: not-contacted
-    last_contact_date: null
-    contact_email: null
-    contact_name: null
-    notes: null
+    status: not-started
+
+- slug: nelson-brewing-company
+  name: "Nelson Brewing Company"
+  address: "512 Latimer St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine:
+    - brewery
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: outer-clove
+  name: "Outer Clove"
+  address: "536 Stanley St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+# --- FRONT / LAKESIDE ---
+
+- slug: canadian-2-for-1-pizza
+  name: "Canadian 2 for 1 Pizza"
+  address: "636 Front St"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: brixx-brewhouse
+  name: "BRIXX Brewhouse"
+  address: "701 Lakeside Dr"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine:
+    - brewery
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: port-701
+  name: "Port 701 Marinaside Dining"
+  address: "701 Lakeside Dr"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+    notes: "Prestige Lakeside Resort"
+
+- slug: edo-japan
+  name: "Edo Japan"
+  address: "1106 Lakeside Dr"
+  neighborhood: downtown
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+# --- FAIRVIEW ---
+
+- slug: leos-pizza
+  name: "Leo's Pizza & Greek Taverna"
+  address: "712 Nelson Ave"
+  neighborhood: fairview
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+- slug: lc-french-bakery-radio
+  name: "L&C French Bakery"
+  address: "711 Radio Ave"
+  neighborhood: fairview
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+
+# --- ROSEMONT ---
+
+- slug: club-verde
+  name: "Club Verde"
+  address: "1123 Richards St W"
+  neighborhood: rosemont
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
+    notes: "Granite Pointe Golf Club"
+
+- slug: ktk-rosemont
+  name: "KTK Rosemont Market & Cafe"
+  address: "1516 Crease Ave"
+  neighborhood: rosemont
+  phone: null
+  website: null
+  instagram: null
+  google_maps_url: null
+  cuisine: []
+  has_patio: false
+  description: null
+  deals: []
+  outreach:
+    status: not-started
